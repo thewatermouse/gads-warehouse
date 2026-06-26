@@ -1,0 +1,14 @@
+# clasp — real one holds your scriptId; commit only the .example
+.clasp.json
+
+# clasp login credentials (never commit)
+.clasprc.json
+
+# local secrets, if you ever stage any
+*.secret
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+node_modules/
