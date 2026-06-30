@@ -26,6 +26,13 @@ A Google Sheet with two tabs:
   Safe to run hourly or daily; safe to re-run after a failure.
 - **Portable.** Clone → drop into a Claude project → follow [CLAUDE.md](CLAUDE.md) → live in minutes.
 
+## Two ways to deploy
+
+- **Plug-and-play (no code)** — open a copy of the template Sheet and use the
+  **⚙ gads-warehouse** menu: *Setup → Check connection → Run now*. No clasp, no
+  editor. See [TEMPLATE.md](TEMPLATE.md) to build/share the template.
+- **Power user (clasp)** — clone and deploy as in Quick start below.
+
 ## Quick start
 
 1. **Get API credentials** (one-time, full walkthrough in [CREDENTIALS.md](CREDENTIALS.md)):
